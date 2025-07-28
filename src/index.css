@@ -1,0 +1,82 @@
+/* src/index.css */
+body {
+  font-family: 'Inter', sans-serif; /* Usar Inter como fuente principal */
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Color de fondo claro */
+}
+
+/* Estilos generales para contenedores */
+.container-fluid {
+  padding: 20px;
+}
+
+/* Estilos para tarjetas (cards) */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Estilos para botones */
+.btn {
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* Estilos para tablas */
+.table {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden; /* Para que los bordes redondeados se apliquen a la tabla */
+}
+
+.table thead {
+  background-color: #e9ecef;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+/* Estilos para formularios */
+.form-control {
+  border-radius: 5px;
+}
+
+/* Estilos para modales */
+.modal-content {
+  border-radius: 10px;
+}
+
